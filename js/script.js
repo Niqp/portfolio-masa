@@ -4,6 +4,7 @@ const ANIMATION_TIME = 501;
 let currentCollapsible = null;
 
 const toggleProject = (ev) => {
+  console.log(ev.target);
   if (ev.target.classList.contains("project-wrapper")) {
     if (
       currentCollapsible &&
