@@ -241,6 +241,7 @@ body {
   overflow: hidden;
   border: none;
   transition: all 0.5s ease;
+  will-change: min-height;
   background: linear-gradient(
     to left,
     rgba(0, 0, 0, 1),
